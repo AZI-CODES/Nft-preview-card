@@ -16,12 +16,13 @@ body{
     padding: 25px;
     border-radius: 15px;
     position: absolute;
-    width: 20%;
+    height: 70%;
+    width: 22%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
-    gap: 12px;
+    gap: 25px;
     box-shadow: 10px 10px 30px 30px hsl(214, 64%, 9%);
 }
 
@@ -54,13 +55,13 @@ h3{
 
 .container-writeup{
     display: grid;
-    gap: 15px;
+    gap: 25px;
 }
 
 .equilibrium-bottom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .equilibrium-bottom img{
@@ -73,7 +74,7 @@ h3{
 
 span{
     color: hsl(215, 51%, 70%);
-    font-size: 12px;
+    font-size: 14px;
     padding: 0px 0px 6px 0px;
 }
 
@@ -84,6 +85,7 @@ span{
 .e-bottom-left{
     display: flex;
     gap: 6px;
+    align-content: center;
 }
 
 .e-bottom-right {
@@ -92,7 +94,9 @@ span{
 }
 
  hr{
-   border: 1px solid hsl(215, 32%, 27%);
+   height: 0.1em;
+   background-color: hsl(215, 32%, 27%);
+   border: none;
  }
 
  .avatar-name{
@@ -109,15 +113,20 @@ span{
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-top: 0;
  }
 
  .footer p{
     font-weight: 300;
     cursor: pointer;
  }
+ .sp-footer{
+    display: flex;
+    gap: 6px;
+ }
 
  .footer span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
  }
 
