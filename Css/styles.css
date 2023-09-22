@@ -22,7 +22,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
-    gap: 25px;
+    gap: 15px;
     box-shadow: 10px 10px 30px 30px hsl(214, 64%, 9%);
 }
 
@@ -61,7 +61,7 @@ h3{
 .equilibrium-bottom{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .equilibrium-bottom img{
@@ -70,12 +70,18 @@ h3{
 
 .eth{
     color: hsl(178, 100%, 50%);
+    align-items: center;
+    display: flex;
+    gap: 6px;
 }
 
 span{
     color: hsl(215, 51%, 70%);
     font-size: 14px;
-    padding: 0px 0px 6px 0px;
+    align-items: center;
+        display: flex;
+        gap: 6px;
+    
 }
 
 .img-icon{
@@ -84,13 +90,13 @@ span{
 
 .e-bottom-left{
     display: flex;
-    gap: 6px;
+    gap: 2px;
     align-content: center;
 }
 
 .e-bottom-right {
     display: flex;
-    gap: 6px;
+    gap: 8px;
 }
 
  hr{
@@ -112,8 +118,6 @@ span{
  .footer{
     display: flex;
     gap: 10px;
-    align-items: center;
-    margin-top: 0;
  }
 
  .footer p{
@@ -122,12 +126,15 @@ span{
  }
  .sp-footer{
     display: flex;
-    gap: 6px;
+    gap: 15px;
  }
 
  .footer span{
     font-size: 14px;
     font-weight: 300;
+ }
+ .footer-main{
+    align-items: flex-start;
  }
 
  .footer p:hover,
